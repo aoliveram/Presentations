@@ -6,7 +6,6 @@ output:
 
 # List of talks and presentations !
 
-
 ```{r aux, echo=FALSE}
 #' Function to read yaml header in markdown documents.
 yaml_header <- function(fn) {
@@ -29,7 +28,6 @@ yaml_header <- function(fn) {
 # yaml_header("20160919-reproducible-research/README.md")
 
 ```
-
 
 ```{r table-prep, echo=FALSE, results='hide'}
 # Icons
@@ -169,6 +167,3 @@ for (ttype in names(types)) {
 
 # cat(readLines(tmp), sep="\n")
 ```
-
-
-

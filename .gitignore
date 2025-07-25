@@ -1,0 +1,34 @@
+# Latex removals
+*.log
+*.nav
+*.aux
+*.out
+*.toc
+*.bbl
+*.bcf
+*.snm
+*.synctex.gz
+*.run.xml
+
+# Binaries
+*.docx
+*.doc
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+*.mp4
+*.kdenlive
+
+# C++ binaries
+*.o
+
+# R binaries
+*.rds
+*.rda
+.Rproj.user
+.Rhistory
+
+*_cache/
+cache/

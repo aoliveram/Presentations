@@ -1,0 +1,174 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+# List of talks and presentations !
+
+
+```{r aux, echo=FALSE}
+#' Function to read yaml header in markdown documents.
+yaml_header <- function(fn) {
+  x   <- readLines(fn, warn = FALSE)
+  idx <- which(grepl("^---\\s?$", x, perl = TRUE))#[1:2]
+  if (length(idx) < 2)
+    return(list())
+  idx <- idx[1:2]
+  
+  x   <- x[(idx[1]+1):(idx[2]-1)]
+  
+  ans <- structure(
+    gsub("^[a-zA-Z0-9_ ]+[:]\\s*", "", x),
+    names = gsub("[:].*", "", x)
+  )
+  
+  ans[ans==""] <- NA_character_
+  as.list(ans)
+}
+# yaml_header("20160919-reproducible-research/README.md")
+
+```
+
+
+```{r table-prep, echo=FALSE, results='hide'}
+# Icons
+slides_icon <- '<img width="20px" style="filter: brightness(0);" alt="Slides icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/PowerPoint_Presentation_Flat_Icon.svg">'
+video_icon <- '<img width="20px" alt="Video camera icon" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Font_Awesome_5_regular_video.svg">'
+repo_icon <- '<img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">'
+
+readmes <- list.files(recursive = TRUE, full.names = TRUE, pattern = "README[.]md")
+
+readmes <- readmes[grepl("[.]/.+/", readmes)]
+paths   <- gsub("^[.]/|README[.]md$", "", readmes)
+details <- lapply(readmes, yaml_header)
+
+# Which have contents?
+idx <- sapply(details, length) > 0
+paths <- paths[idx]
+details <- details[idx]
+
+vids   <- sapply(details, "[[", "video")
+repos  <- sapply(details, "[[", "repo")
+event  <- sapply(details, "[[", "event")
+slides <- sapply(details, "[[", "slides")
+
+# Building the table
+tab <- data.frame(
+  Title = sprintf(
+    "<a href=\"%s\" target=\"_blank\" ><strong>%s</strong></a>",
+    slides,
+    sapply(details, "[[", "title")
+    ),
+  Date  = sapply(details, "[[", "date"),
+  See   = paste(
+    # sprintf("<a href =\"%s\" target=\"_blank\">%s</a>", slides, slides_icon),
+    ifelse(
+      !is.na(vids),
+      sprintf("<a href =\"%s\" target=\"_blank\">%s</a>", vids, video_icon),
+      ""
+      ),
+    ifelse(
+      !is.na(repos),
+      sprintf("<a href=\"%s\" target=\"_blank\">%s</a>", repos, repo_icon),
+      ""
+    )
+  ),
+  Type = sapply(details, "[[", "type"),
+  stringsAsFactors = FALSE
+)
+tab$Date <- as.Date(tab$Date)
+tab$Title <- paste0(
+  tab$Title, " (", format(tab$Date, format = "%B %e, %Y"),
+  ") ",
+  ifelse(
+    !is.na(event),
+    sprintf("<em>%s</em> ", event),
+    ""
+    ),
+  tab$See)
+```
+
+```{r tab-print, results='asis', echo=FALSE}
+# Printing by year -------------------------------------------------------------
+years <- range(as.POSIXlt(tab$Date)$year) + 1900
+years <- years[2]:years[1]
+tab <- lapply(
+  years - 1900,
+  function(i) subset(tab, as.POSIXlt(Date)$year == i)
+  )
+names(tab) <- years
+
+for (i in names(tab)) {
+  if (nrow(tab[[i]]) == 0)
+    next
+  cat("\n\n##", i, "\n\n")
+  print(knitr::kable(tab[[i]][order(tab[[i]]$Date, decreasing = TRUE),-c(2, 3)], row.names = FALSE))
+}
+
+```
+
+```{r list-bib, echo=FALSE, results='hide'}
+types <- list(
+  conference = which(grepl("conf", sapply(details, "[[","type"))),
+  invited    = which(grepl("invi", sapply(details, "[[","type"))),
+  other      = which(!grepl("invi|conf", sapply(details, "[[","type")))
+)
+
+keywords <- c(
+  conference = "conferencetalk",
+  invited    = "invitedtalk",
+  other      = "othertalk"
+)
+
+costars <- sapply(details, "[[", "costar")
+costars <- sapply(costars, function(i) if (is.null(i)) NA else i)
+
+for (ttype in names(types)) {
+  tmp <- sprintf("presentations-%s.bib", ttype)
+  file.remove(tmp)
+  allnocite <- NULL
+  counter <- 0L
+  for (i in types[[ttype]]) {
+    allnocite <- c(allnocite, details[[i]]$date)
+    cat(
+      "\n@inproceedings{talk-", (counter <- counter + 1), "-", ttype,
+      ",\n\t" , sep="", file=tmp, append = TRUE
+      )
+
+    # Parsing the title to be latex like
+    details[[i]]$title <- gsub("[&]", "\\\\&", details[[i]]$title)
+
+    lines <- with(details[[i]], c(
+      title      = title,
+      author     = if (ttype == "conference") {
+        ifelse(is.na(costars[i]), "{\\bf Olivera}, {\\bf Aníbal}", costars[i])
+        } else "",
+      year       = gsub("-.+", "",date),
+      month      = as.integer(gsub("^[0-9]+-([0-9]+)-.+", "\\1",date)),
+      eventtitle = if (is.na(event)) NULL else paste0("{", event, "}"),
+      note       = sprintf(
+        "(%s%s%s%s%s)", type,
+	ifelse(!is.na(slides) | !is.na(video), ", ", ""),
+	ifelse(!is.na(slides), sprintf("\\href{%s}{slides}", slides), ""),
+	ifelse(!is.na(slides) & !is.na(video), "/", ""),
+        ifelse(!is.na(video), sprintf("\\href{%s}{video}", video), "")
+        ),
+      keywords   = unname(keywords[ttype])
+    ))
+    
+    lines <- paste(sprintf("%s={%s}", names(lines), lines), collapse = ",\n\t")
+    cat(lines, "\n}\n", file=tmp, append = TRUE)
+  }
+  
+  cat(
+    "%\\nocite{", paste0("talk", allnocite, collapse=","), "}\n", file = tmp,
+    append = TRUE)
+  # file.rename(tmp, )
+}
+
+# cat(readLines(tmp), sep="\n")
+```
+
+
+

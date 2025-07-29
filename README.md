@@ -18,4 +18,4 @@
 
 | Title | Type |
 |:---|:---|
-| <a href="https://github.com/aoliveram/Presentations" target="_blank" ><strong>Dipole-dipole interactions through a lens</strong></a> (June 22, 2022) <em>Master Defense</em> <a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Master’s Thesis Defense |
+| <a href="https://arxiv.org/abs/2204.00601" target="_blank" ><strong>Dipole-dipole interactions through a lens</strong></a> (June 22, 2022) <em>Master Defense</em> <a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Master’s Thesis Defense |

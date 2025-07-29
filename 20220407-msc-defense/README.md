@@ -2,11 +2,11 @@
 date: 2022-06-22
 title: Dipole-dipole interactions through a lens
 event: Master Defense
-host: UdeC
+host: Uiversidad de Concepción
 event_url: 
 video:
 location: CFM
-slides: https://github.com/aoliveram/Presentations
+slides: https://arxiv.org/abs/2204.00601
 repo: https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926
 type: Master's Thesis Defense
 ---

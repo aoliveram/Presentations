@@ -11,11 +11,11 @@
 
 | Title | Type |
 |:---|:---|
-| <a href="NA" target="_blank" ><strong>Prediction of Gene Functions by Leveraging Biological Insights with Mechanistic Machine Learning</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | invited talk |
-| <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank" ><strong>How does network structure in Agent-Based Models affect epidemiological parameters? A large</strong></a> (October 27, 2024) <em>CSS 2024 Santa Fe</em> <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | conference poster |
+| <a href="https://github.com/aoliveram/Presentations/blob/main/20241028-utah-1/new-capabilities-netdiffuseR.pdf" target="_blank" ><strong>NetdiffuseR: Brief introduction and new capabilities</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | Invited Talk |
+| <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank" ><strong>How does network structure in Agent-Based Models affect epidemiological parameters? A large</strong></a> (October 27, 2024) <em>CSS 2024 Santa Fe</em> <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Conference Poster |
 
 ## 2022
 
 | Title | Type |
 |:---|:---|
-| <a href="https://github.com/aoliveram/Presentations" target="_blank" ><strong>Dipole-dipole interactions through a lens</strong></a> (June 22, 2022) <em>Master Defense</em> <a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | talk |
+| <a href="https://github.com/aoliveram/Presentations" target="_blank" ><strong>Dipole-dipole interactions through a lens</strong></a> (June 22, 2022) <em>Master Defense</em> <a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Master’s Thesis Defense |

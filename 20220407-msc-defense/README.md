@@ -4,11 +4,11 @@ title: Dipole-dipole interactions through a lens
 event: Master Defense
 host: UdeC
 event_url: 
+video:
 location: CFM
 slides: https://github.com/aoliveram/Presentations
 repo: https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926
 type: talk
-video:
 ---
 
 # Dipole-dipole Interactions through a Lens.

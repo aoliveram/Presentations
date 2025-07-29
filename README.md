@@ -5,12 +5,13 @@
 
 | Title | Type |
 |:---|:---|
-| <a href="https://drive.google.com/drive/u/0/folders/1PzMbGu64HsQKhZSoK9JmRXneJA22yQwS" target="_blank" ><strong>Diffusion of Innovations with Individual Preferences: Rational Choice vs Social Influence</strong></a> (June 28, 2025) <em>SUNBELT 2025</em> <a href="https://github.com/aoliveram/Trabajo-1" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | conference talk |
+| <a href="https://github.com/aoliveram/Presentations/blob/main/20250628-sunbelt2025/Diffusion%20of%20Innovations%20with%20Individual%20Preferences_%20Rational%20Choice%20vs%20Social%20Influence.pdf" target="_blank" ><strong>Diffusion of Innovations with Individual Preferences: Rational Choice vs Social Influence</strong></a> (June 28, 2025) <em>SUNBELT 2025</em> <a href="https://github.com/aoliveram/Trabajo-1" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Conference Talk |
 
 ## 2024
 
 | Title | Type |
 |:---|:---|
+| <a href="NA" target="_blank" ><strong>Prediction of Gene Functions by Leveraging Biological Insights with Mechanistic Machine Learning</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | invited talk |
 | <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank" ><strong>How does network structure in Agent-Based Models affect epidemiological parameters? A large</strong></a> (October 27, 2024) <em>CSS 2024 Santa Fe</em> <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | conference poster |
 
 ## 2022

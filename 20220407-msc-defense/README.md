@@ -8,7 +8,7 @@ video:
 location: CFM
 slides: https://github.com/aoliveram/Presentations
 repo: https://repositorioslatinoamericanos.uchile.cl/handle/2250/4427926
-type: talk
+type: Master's Thesis Defense
 ---
 
 # Dipole-dipole Interactions through a Lens.

@@ -1,7 +1,7 @@
 ---
 repo: 
 title: NetdiffuseR: Brief introduction and new capabilities
-date: 2024-10-28
+date: 2024-11-29
 location: Salt Lake City, Utah
 host: Division of Epidemiology at the University of Utah
 event: University of Utah Division of Epidemiology Seminar

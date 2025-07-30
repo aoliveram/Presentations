@@ -12,7 +12,8 @@
 | Title | Type |
 |:---|:---|
 | <a href="https://github.com/aoliveram/Presentations/blob/main/20241212-policics-1/PoliCICS%20-%20Social%20Contagion%20in%20Networks.pdf" target="_blank" ><strong>Social Contagion in Networks: Exploring Diffusion Dynamics and Insights</strong></a> (December 12, 2024) <em>PoliCICS Seminars</em> | Invited Talk |
-| <a href="https://github.com/aoliveram/Presentations/blob/main/20241028-utah-1/new-capabilities-netdiffuseR.pdf" target="_blank" ><strong>NetdiffuseR: Brief introduction and new capabilities</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | Invited Talk |
+| <a href="https://github.com/aoliveram/Presentations/blob/main/20241028-utah-1/Network Structure ABM - Presentation.pdf" target="_blank" ><strong>NetdiffuseR: Brief introduction and new capabilities</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | Invited Talk |
+| <a href="https://github.com/aoliveram/Presentations/blob/main/20241028-utah-2/new-capabilities-netdiffuseR.pdf" target="_blank" ><strong>NetdiffuseR: Brief introduction and new capabilities</strong></a> (October 28, 2024) <em>University of Utah Division of Epidemiology Seminar</em> | Invited Talk |
 | <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank" ><strong>How does network structure in Agent-Based Models affect epidemiological parameters? A large</strong></a> (October 27, 2024) <em>CSS 2024 Santa Fe</em> <a href="https://drive.google.com/file/d/10s43WsqoXXCqOwgC92tH1ddXDe76xal0/view" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Conference Poster |
 
 ## 2022

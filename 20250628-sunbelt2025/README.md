@@ -4,7 +4,7 @@ title: Diffusion of Innovations with Individual Preferences: Rational Choice vs 
 date: 2025-06-28
 location: París, France
 host: SUNBELT
-event: SUNBELT 2025
+event: SUNBELT Conference 2025
 event_url: https://sunbelt2025.org
 video: 
 announcement: https://sunbelt2025.org

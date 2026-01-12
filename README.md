@@ -13,7 +13,7 @@
 |:---|:---|
 | <a href="https://github.com/aoliveram/Presentations/blob/main/20251023-policics-2/Networks-Decide-for-Us.pdf" target="_blank" ><strong>Networks Decide for Us: When networks shape behavior more than intentions</strong></a> (October 23, 2025) <em>PoliCICS Seminars</em> | Invited Talk |
 | <a href="https://github.com/aoliveram/Presentations/blob/main/20250628-sunbelt2025/Diffusion%20of%20Innovations%20with%20Individual%20Preferences_%20Rational%20Choice%20vs%20Social%20Influence.pdf" target="_blank" ><strong>Diffusion of Innovations with Individual Preferences: Rational Choice vs Social Influence</strong></a> (June 28, 2025) <em>SUNBELT Conference 2025</em> <a href="https://github.com/aoliveram/Trabajo-1" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Conference Talk |
-| <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank" ><strong>Understanding Diffusion with netdiffuseR</strong></a> (June 24, 2025) <em>Sunbelt Conference, 2025</em> <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
+| <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank" ><strong>Understanding Diffusion with netdiffuseR</strong></a> (June 24, 2025) <em>SUNBELT Conference, 2025</em> <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
 
 ## 2024
 

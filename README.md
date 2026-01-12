@@ -5,7 +5,7 @@
 
 | Title | Type |
 |:---|:---|
-| <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank" ><strong>“Revisiting Surveys: A view from Complexity Sciences”</strong></a> (January 9, 2026) <em>Escuela de Verano de Sistemas Complejos, 2026</em> <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
+| <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank" ><strong>Revisiting Surveys: A view from Complexity Sciences</strong></a> (January 9, 2026) <em>Escuela de Verano de Sistemas Complejos, 2026</em> <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
 
 ## 2025
 

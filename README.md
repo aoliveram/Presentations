@@ -5,7 +5,8 @@
 
 | Title | Type |
 |:---|:---|
-| <a href="https://github.com/aoliveram/Presentations/blob/main/20260211-jornada-redes/Jornada_Redes_Networks-Decide-for-Us.pdf" target="_blank" ><strong>“Networks Decide for Us: When networks shape behavior more than intentions”</strong></a> (February 11, 2026) <em>III Jornada de Redes</em> | Conference Talk |
+| <strong>“When Homophily governs the Criticality of Social Adoption”</strong> (June 1, 2026) <em>NetSci 2026 — Satellite CPIN2 (Critical Phenomena in Networks)</em> | Conference Talk |
+| <strong>“Networks Decide for Us: When networks shape behavior more than intentions”</strong> (February 11, 2026) <em>III Jornada de Redes</em> | Conference Talk |
 | <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank" ><strong>Revisiting Surveys: A view from Complexity Sciences</strong></a> (January 9, 2026) <em>Escuela de Verano de Sistemas Complejos, 2026</em> <a href="https://github.com/PoliCICS/revisiting-surveys-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
 
 ## 2025

@@ -53,10 +53,14 @@ slides <- sapply(details, "[[", "slides")
 
 # Building the table
 tab <- data.frame(
-  Title = sprintf(
-    "<a href=\"%s\" target=\"_blank\" ><strong>%s</strong></a>",
-    slides,
-    sapply(details, "[[", "title")
+  Title = ifelse(
+    is.na(slides),
+    sprintf("<strong>%s</strong>", sapply(details, "[[", "title")),
+    sprintf(
+      "<a href=\"%s\" target=\"_blank\" ><strong>%s</strong></a>",
+      slides,
+      sapply(details, "[[", "title")
+      )
     ),
   Date  = sapply(details, "[[", "date"),
   See   = paste(

@@ -5,6 +5,7 @@
 
 | Title | Type |
 |:---|:---|
+| <a href="https://github.com/aoliveram/Presentations/blob/main/20260625-sunbelt2026/Networks-Decide-for-Us.pdf" target="_blank" ><strong>Networks Decide for Us: The Emergence of Adoption in Homophily-Imputed Social Topologies</strong></a> (June 25, 2026) <em>SUNBELT Conference 2026</em> <a href="https://github.com/aoliveram/Networks-Decide-for-Us" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Conference Talk |
 | <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank" ><strong>Understanding Diffusion with netdiffuseR</strong></a> (June 24, 2026) <em>SUNBELT Conference, 2026</em> <a href="https://github.com/USCCANA/netdiffuser-workshop" target="_blank"><img width="20px" alt="Octocat icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></a> | Workshop |
 | <strong>“When Homophily governs the Criticality of Social Adoption”</strong> (June 1, 2026) <em>NetSci 2026 — Satellite CPIN2 (Critical Phenomena in Networks)</em> | Conference Talk |
 | <strong>“Networks Decide for Us: When networks shape behavior more than intentions”</strong> (February 11, 2026) <em>III Jornada de Redes</em> | Conference Talk |
